@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! - in com.runner.CucumberRunner
+initializationError(com.runner.CucumberRunner)  Time elapsed: 0.007 s  <<< ERROR!
+cucumber.runtime.CucumberException: Couldn't load plugin class: html.target/cucumber-html-report
+Caused by: java.lang.ClassNotFoundException: html.target/cucumber-html-report
+
